@@ -6,7 +6,7 @@
  * by default OpenGL doesn't perform blending
  *
  * blending determines how we combine out output color with what is already in out target buffer
- * output = the color we output from out fragment shader
+ * output = the color we output from our fragment shader
  * target buffer = the buffer our fragment shader is drawing to*/
 
 int main() {
