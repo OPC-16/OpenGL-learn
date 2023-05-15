@@ -1,0 +1,11 @@
+projection is an idea of going from having cooridinates in 3D world (characters, terrains etc) to map those cooridinates 
+to our window where we actually are rendering 
+
+projection (perspective) can also perform scaling of objects (to make them small or big) in 3D world where farther 
+the obj is the smaller it is
+
+In orthographic projection (usually used for 2D), the farther objects are of same size as the nearer objects
+In perspective projection (usually used for 3D), the farther obj are of small size
+
+In projection, we convert the cooridinates into normalized device cooridinates i.e. between -1 to 1 
+If any calculated device cooridinate happens to be 2 or something then it is not rendered as it is outside of our view
